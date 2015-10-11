@@ -1,0 +1,26 @@
+{
+  "name": "peer_support",
+  "version": "0.1.0",
+  "authors": [
+    "CraigMcCahill <craig.mccahill@gmail.com>"
+  ],
+  "description": "Charity website",
+  "main": "index.html",
+  "keywords": [
+    "html",
+    "js",
+    "css"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "modernizr": "~2.8.3",
+    "fullpage": "~2.6.9"
+  }
+}
