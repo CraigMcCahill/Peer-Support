@@ -35,7 +35,6 @@
 
 <script type="text/javascript" src="bower_components/fullpage/jquery.fullPage.min.js"></script>
 
-
 <!-- styles  -->
 <link rel="stylesheet" type="text/css" href="css/style.css">
 
@@ -51,7 +50,8 @@
 
 	    $('#fullpage').fullpage({
         	anchors:['header', 'introduction', 'problems', 'friends', 'choice'],
-        	scrollOverflow: true
+        	scrollOverflow: true,
+        	recordHistory: false
     	});
 
 	});
@@ -68,13 +68,26 @@
 			<img src="img/logo_white.svg" alt="Association of Young People's Health">
 		</div>
 		<div class="instruction">presents</div>
-		<h1 class="yellow dashedYellow">A guide to young people supporting each other</h1>
+		<h1 class="dashedYellow">A guide to <span class="teal">young people</span> <span class="pink">supporting</span> <span class="yellow">each other</span></h1>
 	<header>
     </div>
     <div class="section black" data-anchor="introduction">
-    	<h2 class="yellow">How it started</h2>
-    	<p>At the Be Healthy project, we know that young people support their friends through lots of difficult stuff. But we were surprised to find out just how much and what level of support young people give to each other.
-		<p>We ran focus groups and surveyed young people.  Everyone that responded told us they had experience of supporting a friend through a difficult situation that they would not talk to anyone else about.</p>
+    	
+    	<div class="pure-g">
+		
+		<div class="pure-u-1 pure-u-md-1-2 left">
+			<h2 class="yellow">How it started</h2>
+	    	<p>At the Be Healthy project, we know that young people support their friends through lots of difficult stuff. But we were surprised to find out just how much and what level of support young people give to each other.
+			<p>We ran focus groups and surveyed young people.  Everyone that responded told us they had experience of supporting a friend through a difficult situation that they would not talk to anyone else about.</p>
+		
+		</div>	
+		<div class="pure-u-1 pure-u-md-1-2">
+			<img src="img/boyglasses.png" alt="" class="fullHeight">
+		</div>
+	</div>	
+
+
+    	
     </div>
     <div class="section black" data-anchor="problems">
     	<p>Young people told us that they have supported their friends through all of these situations.</p>
@@ -104,9 +117,22 @@
     	</div>
     </div>
     <div class="section black" data-anchor="friends">
-		<h2 class="pink">Not surprising</h2>
-		<p>Young people also told us that it's their friends they turn to first when they have a problem.</p>
-		<p>Some young people are giving the kind of support to their friends that professionals get paid to give.  We think that they deserve more recognition for the skills and expertise be doing this. The point of this guide is to get you thinking about how you and your friends can help each other better. </p>
+		
+		<div class="pure-g">
+		<div class="pure-u-1 pure-u-md-1-2">
+			<img src="img/sad-girl.png" alt="" class="fullHeight">
+		</div>
+		<div class="pure-u-1 pure-u-md-1-2 left">
+			<h2 class="pink">Not surprising</h2>
+			<p>Young people also told us that it's their friends they turn to first when they have a problem.</p>
+			<p>Some young people are giving the kind of support to their friends that professionals get paid to give.  We think that they deserve more recognition for the skills and expertise be doing this. The point of this guide is to get you thinking about how you and your friends can help each other better.</p>
+		</div>	
+		
+	</div>	
+
+
+
+		
     </div>
 	<div class="section black" data-anchor="choice">
 		<nav role="navigation">
