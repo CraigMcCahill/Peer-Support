@@ -206,23 +206,6 @@ img {
   animation: neon3 1.5s ease-in-out infinite alternate;
 }
 
-@media screen and (max-width: 600px) {
-
-	.neonPink:hover {
-		-webkit-animation: none;
-  		-moz-animation: none;
-  		animation: none;	
-	}
-
-	.neonYellow:hover {
-		-webkit-animation: none;
-  		-moz-animation: none;
-  		animation: none;
-
-	}
-
-}
-
 .dashedYellow {
 	border: dashed .1em #FFC906;
 }
@@ -387,6 +370,7 @@ img {
 }
 
 @media screen and (max-width: 1200px) {
+  
   p, blockquote, li {
       padding: 0 1em;
   }
@@ -504,6 +488,18 @@ img {
     font-size:1em;
     font-weight:bold;
   }
+
+  .neonPink:hover {
+    -webkit-animation: none;
+      -moz-animation: none;
+      animation: none;  
+  }
+
+  .neonYellow:hover {
+    -webkit-animation: none;
+      -moz-animation: none;
+      animation: none;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -538,8 +534,6 @@ img {
         max-height: 35vh;
     }
 }
-
-
 
 /*glow for webkit*/
 @-webkit-keyframes neon1 {
