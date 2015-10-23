@@ -120,7 +120,7 @@ img {
 
 .instruction {
 	margin: 0 auto;
-	font-family: 'CreampuffRegular';
+	font-family: 'CreampuffRegular', sans-serif;
 	font-size: 4em;
 	text-align: center;
 }
@@ -384,11 +384,20 @@ img {
   }
 
   p {
-    font-size: 2em;
+    font-size: 1.6em;
   }
 
   li {
     font-size: 2em;
+  }
+
+  .phone {
+    color: #fff;
+  }
+
+  .phone a{
+    color: #fff;
+    text-decoration: underline;
   }
 
   .instruction {
@@ -510,19 +519,35 @@ img {
     }
 
     h1 {
-        font-size: 2.5em;
+        font-size: 2.2em;
+        margin: 0.2em;
+    }
+
+    h1.left {
+        text-align: center;
     }
 
     h2 {
-      font-size: 2em;
+      font-size: 1.8em;
+    }
+
+    .left h2 {
+      text-align: left;
+      padding-left: .3em;
     }
 
     p {
       font-size: 1em;
     }
 
+    .left p {
+      padding: 0.6em;
+    }
+
     li {
-      font-size: 1.2em;
+      font-size: 1em;
+      font-family: 'Exo 2', sans-serif;
+      text-transform: none;
     }
 
     .instruction {
