@@ -81,6 +81,10 @@ p {
 	/*padding: 1em;*/
 }
 
+.pure-g p {
+  font-family: 'Exo 2', sans-serif;
+}
+
 .small {
   font-size: 1em;
 }
